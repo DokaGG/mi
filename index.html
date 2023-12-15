@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Money that i Have</h1>
+        <div id="loading" class="loading mt-4">Loading...</div>
+        <div id="sheetData" class="hidden mt-4">
+            <h1>All Balance</h1>
+            <table class="table table-bordered mt-3">
+                <tr>
+                    <td>BOC</td>
+                    <td id="boc"></td>
+                </tr>
+                <tr>
+                    <td>Frimi</td>
+                    <td id="frimi"></td>
+                </tr>
+                <tr>
+                    <td>Comeback</td>
+                    <td id="comeback"></td>
+                </tr>
+                <tr>
+                    <td>Flash</td>
+                    <td id="flash"></td>
+                </tr>
+                <tr>
+                    <td>Skrill</td>
+                    <td id="skrill"></td>
+                </tr>
+                <tr>
+                    <td><b>Balance</b></td>
+                    <td id="balance"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
